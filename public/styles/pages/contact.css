@@ -1,0 +1,43 @@
+/* Contact Page Styles */
+.contact-section {
+    padding: 6rem 0;
+    background-color: #f2f5f7; /* Light background */
+    color: #333;
+    text-align: center;
+    animation: fadeInUp 0.5s ease-in-out;
+    padding-top: 8rem; /* Spacing adjustment */
+}
+
+.contact-section h1 {
+    font-size: 3.5rem; /* Large title */
+    font-weight: 800; /* Bold font */
+    margin-bottom: 2rem; /* Space below title */
+    color: #2c3e50; /* Darker title color */
+    text-transform: uppercase;
+}
+
+.contact-section p {
+    font-size: 1.5rem; /* Larger paragraph font */
+    line-height: 1.75; /* Space between lines */
+    color: #555; /* Light gray text */
+    max-width: 700px;
+    margin: 0 auto 2rem; /* Center text */
+}
+
+.contact-form {
+    max-width: 600px; /* Limit form width */
+    margin: 0 auto; /* Center form */
+    text-align: left; /* Align text to the left */
+}
+
+/* Animation effect */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px); /* Initial state, slightly below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Final state, normal position */
+    }
+}

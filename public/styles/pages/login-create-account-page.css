@@ -1,0 +1,70 @@
+/* Login and Create Account Page Styles */
+.container {
+    min-height: calc(100vh - 16rem); /* Full height minus footer */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    box-sizing: border-box; /* Include padding and border in dimensions */
+}
+
+.row {
+    display: flex;
+    align-items: center; /* Center vertically */
+    background-color: #fff; /* White background */
+    border-radius: 0.9375rem; /* Rounded corners */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 1.25rem; /* Padding for row */
+    width: 100%;
+    max-width: 56.25rem; /* Max width for container */
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.col-lg-4 {
+    border-radius: 0.9375rem; /* Rounded corners */
+}
+
+.col-lg-4 img {
+    border-radius: 0.9375rem; /* Rounded corners for images */
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem; /* Margin for spacing */
+}
+
+.text-center {
+    margin-top: 1.5rem; /* Space at the top */
+}
+
+.custom-navbar {
+    background-color: #202425; /* Dark background */
+}
+
+.btn {
+    padding: 0.5rem 1rem; /* Button padding */
+    font-size: 1rem; /* Button text size */
+}
+
+.form-control {
+    margin-bottom: 1rem; /* Space below form fields */
+}
+
+.login-section, .create-account-section {
+    padding: 6rem 0;
+    color: #333;
+    text-align: center;
+    animation: fadeInUp 0.2s ease-in-out; /* Subtle fade-in */
+    padding-top: 10rem;
+}
+
+/* Animation effect */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px); /* Start from below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* End at normal position */
+    }
+}

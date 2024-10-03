@@ -1,0 +1,50 @@
+/* Global Styles */
+html {
+    font-size: 16px; /* Base font size */
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-style: normal; /* Standard font style */
+}
+
+body {
+    height: 100%;
+    background-color: #ffffff; /* White background */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding in width and height calculations */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#root {
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    min-height: 100vh; /* Full viewport height */
+}
+
+main {
+    flex: 1; /* Grow to fill available space */
+}
+
+p {
+    color: black; /* Black text color for paragraphs */
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem; /* Narrow scrollbar */
+    background: rgba(255, 255, 255, 0); /* Transparent background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(85, 85, 85); /* Dark gray scrollbar */
+    border-radius: 2rem; /* Rounded scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(100, 100, 100); /* Slightly darker on hover */
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: rgb(146, 146, 146); /* Darker when active */
+}

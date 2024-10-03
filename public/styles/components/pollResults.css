@@ -1,0 +1,12 @@
+.result-bar-container {
+    background-color: #e0e0e0; /* Light background for result bar container */
+    border-radius: 4px;
+    overflow: hidden;
+    height: 1rem;
+    margin-top: 0.5rem;
+}
+
+.result-bar {
+    background-color: #007bff; /* Blue progress bar */
+    height: 100%;
+}

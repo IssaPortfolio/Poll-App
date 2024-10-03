@@ -1,0 +1,21 @@
+/* Dashboard Styles */
+.dashboard-container {
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+.dashboard-body {
+    flex: 1; /* Allows body to grow and push footer down */
+    background-color: #121516; /* Dark background for body */
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in dimensions */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding-top: 4rem; /* Account for navbar height */
+}
+
+.dashboard-p {
+    color: rgb(255, 255, 255); /* White text for paragraphs */
+}
+
+.dashboard-h3 {
+    color: rgb(0, 0, 0); /* Black text for h3 */
+}

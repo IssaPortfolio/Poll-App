@@ -1,0 +1,49 @@
+.poll-box {
+
+}
+
+.create-poll-btn {
+    margin-top: 2rem;
+    background-color: #007bff; /* Bootstrap blue for create poll button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block; /* Ensure button does not stretch */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.create-poll-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Center buttons vertically */
+}
+
+.submit-vote-btn {
+    background-color: #28a745; /* Bootstrap green for submit button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.submit-vote-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.submit-vote-btn:disabled {
+    background-color: #6c757d; /* Disabled button gray */
+    cursor: not-allowed; /* Change cursor on disabled button */
+}

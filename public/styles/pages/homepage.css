@@ -1,0 +1,125 @@
+/* Full-Screen Hero Section styling */
+.hero-section {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    background: linear-gradient(135deg, #1EAE98 0%, #D8B5FF 100%); /* Apply a gradient background */
+    color: #fff; /* Set text color to white */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center text */
+    padding: 0 1.5rem; /* Add horizontal padding */
+    overflow: hidden; /* Hide overflow content */
+    animation: fadeInUp 1s ease-in-out; /* Apply fade-in animation */
+}
+
+.hero-section h1 {
+    font-size: 4rem; /* Set font size for the main heading */
+    margin-bottom: 1.5rem; /* Add bottom margin */
+    font-weight: 700; /* Set font weight to bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow to text for depth */
+}
+
+.hero-section p {
+    font-size: 1.5rem; /* Set font size for paragraph text */
+    max-width: 800px; /* Limit width of paragraph */
+    margin: 0 auto; /* Center paragraph */
+    line-height: 1.8; /* Increase line height for readability */
+}
+
+.hero-section .btn-get-started {
+    margin-top: 2rem; /* Add top margin for spacing */
+    padding: 0.75rem 2.5rem; /* Add padding for button */
+    font-size: 1.5rem; /* Set font size for button */
+    font-weight: 700; /* Set font weight to bold */
+    border-radius: 3rem; /* Round button corners */
+    background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%); /* Gradient background for button */
+    color: #fff; /* Set button text color to white */
+    border: none; /* Remove border */
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for button effects */
+    text-decoration: none; /* Remove underline from text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.hero-section .btn-get-started:hover {
+    background: linear-gradient(135deg, #feb47b 0%, #ff7e5f 100%); /* Reverse gradient on hover */
+    transform: scale(1.1); /* Scale button on hover for emphasis */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+/* Body background gradient */
+body {
+    background: linear-gradient(135deg, #ffc6a6 0%, #629bff 100%); /* Apply gradient background to body */
+}
+
+/* Styling for text content */
+.text-content h3 {
+    font-weight: bold; /* Set font weight for headings */
+    font-size: 2.5rem; /* Set font size for subheadings */
+    margin-bottom: 1rem; /* Add bottom margin */
+}
+
+.text-content {
+    padding: 2rem; /* Add padding for text content */
+    font-size: 1.8rem; /* Set font size for text content */
+    animation: fadeInUp 1s ease-in-out; /* Apply fade-in animation */
+}
+
+/* Image container styling */
+.image-container img {
+    max-width: 100%; /* Ensure images do not exceed container width */
+    height: auto; /* Maintain aspect ratio of images */
+    border-radius: 1rem; /* Round image corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for image effects */
+    width: 100%; /* Set width to 100% to fill container */
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Scale image on hover for emphasis */
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+/* Media queries for responsive design */
+@media (min-width: 992px) {
+    .fullscreen-section {
+        margin: 0 auto; /* Center fullscreen section */
+        max-width: 90%; /* Limit maximum width */
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .fullscreen-section {
+        margin: 0 auto; /* Center fullscreen section */
+        max-width: 90%; /* Limit maximum width */
+    }
+}
+
+@media (max-width: 767px) {
+    .fullscreen-section {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 2rem 1rem; /* Add padding for smaller screens */
+    }
+    .fullscreen-section .text-content,
+    .fullscreen-section .image-container {
+        width: 100%; /* Set width to 100% for text and image containers */
+    }
+    .fullscreen-section .text-content {
+        order: 1; /* Order text content to appear first */
+    }
+    .fullscreen-section .image-container {
+        order: 2; /* Order image container to appear second */
+    }
+}
+
+/* Animation for content appearance */
+@keyframes fadeInUp {
+    from {
+        opacity: 0; /* Start with invisible element */
+        transform: translateY(50px); /* Move element downwards */
+    }
+    to {
+        opacity: 1; /* Fade in to visible */
+        transform: translateY(0); /* Move to original position */
+    }
+}

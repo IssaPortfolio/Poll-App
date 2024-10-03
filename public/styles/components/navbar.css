@@ -1,0 +1,22 @@
+.custom-navbar {
+    background-color: #202425; /* Dark background for navbar */
+    padding: 1rem; /* Space around navbar content */
+    color: #fff; /* White text color */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Larger font for brand name */
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar {
+    position: fixed; /* Stick navbar at the top */
+    top: 0;
+    width: 100%; /* Full width for navbar */
+    z-index: 1000; /* Ensure navbar stays above other content */
+}
+
+#userId {
+    color: white; /* White text for user ID */
+}

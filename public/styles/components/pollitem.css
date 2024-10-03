@@ -1,0 +1,73 @@
+.poll-item {
+    background-color: rgb(243, 243, 227); /* Light background for poll items */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: none; /* Remove bullets */
+}
+
+.poll-question {
+    margin-bottom: 1rem; /* Space below question */
+    font-size: 1.25rem;
+    font-weight: bold; /* Bold text for question */
+}
+
+.poll-creator {
+    /* Add any specific styles for the poll creator here */
+}
+
+.poll-options {
+    list-style: none;
+    padding: 0;
+}
+
+.poll-option {
+    margin-bottom: 1rem; /* Space between options */
+    padding: 1rem;
+    border: 1px solid #ddd; /* Light border around options */
+    border-radius: 4px;
+    background-color: #fafafa; /* Light background for options */
+    display: flex;
+    align-items: center; /* Vertically center content */
+}
+
+.poll-option label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.poll-option input[type="radio"] {
+    margin-right: 0.5rem; /* Space between radio and label */
+}
+
+.result-bar-container {
+    background-color: #e0e0e0; /* Light gray background for result bar */
+    border-radius: 4px;
+    overflow: hidden;
+    height: 1rem;
+    margin-top: 0.5rem;
+}
+
+.result-bar {
+    background-color: #007bff; /* Blue for result progress */
+    height: 100%;
+}
+
+.delete-poll-btn {
+    background-color: #dc3545; /* Bootstrap red for delete button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.delete-poll-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
