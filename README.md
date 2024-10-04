@@ -1,6 +1,10 @@
 # PollApp
 
 PollApp is a web application for creating and participating in polls, built with React and Vite. Follow the instructions below to set up the project on your local machine.
+![HomeHero](https://github.com/user-attachments/assets/b5a50253-2760-4677-bded-9cb7ff40547f)
+![HomeHero](https://github.com/user-attachments/assets/cc012efa-e8c7-4554-a48d-f3b13ae5e318)
+![Login](https://github.com/user-attachments/assets/80e38598-a2a7-4eb0-8b75-0cc29e68cb79)
+![Dashboard](https://github.com/user-attachments/assets/8a6e0a6c-8968-43dc-9a91-7ef37cd0fd15)
 
 ## Step-by-Step Installation Guide
 
