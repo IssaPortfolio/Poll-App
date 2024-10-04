@@ -32,11 +32,18 @@ You may use this as an example:
    BACKEND_API_URL="http://localhost:4000/api"
    FRONTEND_URL="http://localhost:5173"
    ALLOWED_ORIGINS="http://localhost:5173"
+```
 
 ### Step 4: Set Up MySQL Database
+1. Run these MySQL queries:
+   ```bash
    CREATE DATABASE IF NOT EXISTS Project;
    USE Project;
 
 ### Step 5: Run the application
-1. npm run dev
-2. Visit http://localhost:5173
+1. In your terminal, run:
+   ```bash
+   npm run dev
+3. Visit
+   ```bash
+   http://localhost:5173
