@@ -7,6 +7,7 @@ Whether you want to use it for fun, work, or to stay informed about various topi
 I implemented both front-end and back-end components to ensure smooth user interaction and efficient data handling. Additionally, PollApp is deployed on AWS EC2, leveraging an S3 bucket for secure cloud-based image storage.
 
 ![HomeHero](https://github.com/user-attachments/assets/b5a50253-2760-4677-bded-9cb7ff40547f)
+![HomeFullScreen](https://github.com/user-attachments/assets/ec1a345b-ba69-4cba-bc3b-b0e43e970973)
 ![Login](https://github.com/user-attachments/assets/80e38598-a2a7-4eb0-8b75-0cc29e68cb79)
 ![Dashboard](https://github.com/user-attachments/assets/8a6e0a6c-8968-43dc-9a91-7ef37cd0fd15)
 
