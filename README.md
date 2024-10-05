@@ -1,6 +1,6 @@
 # PollApp
 
-[PollApp](http://18.117.166.89/) is a unique social media platform centered around polls, allowing users to create polls, vote on them, and view the results. Built with a robust stack of technologies including Node.js, Express.js, React, MySQL, Bootstrap, HTML, CSS, and Vite, PollApp offers a seamless experience for engaging with friends, colleagues, or the wider community.
+[PollApp](http://18.117.166.89/) is a unique social media platform centered around polls, allowing users to create polls, vote on them, and view the results. Built with a robust stack of technologies including Node.js, Express.js, React, MySQL, Bootstrap, HTML, CSS, Git, and Vite, PollApp offers a seamless experience for engaging with friends, colleagues, or the wider community.
 
 Whether you want to use it for fun, work, or to stay informed about various topics, PollApp makes decision-making more interactive and enjoyable. The application features a user-friendly interface with a home page, login and registration functionalities, and a dedicated dashboard for managing polls and results.
 
