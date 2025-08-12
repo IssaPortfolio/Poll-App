@@ -68,6 +68,9 @@ const CreateAccountPage = () => {
                         </div>
                         <div className="col-lg-6 col-md-6 col-xs-12">
                             <h2 className="text-center mb-4">Create Account</h2> {/* Title for the account creation form */}
+                            <div className="alert alert-danger text-center mb-4" style={{ fontWeight: 'bold' }}>
+                                ⚠️ WARNING: This site uses non-secure connections. Please use fake credentials only!
+                            </div>
                             <form id="createAccountForm" onSubmit={handleCreateAccount}> {/* Form for creating an account */}
                                 <FormInput
                                     label="Username"
