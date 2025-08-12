@@ -61,6 +61,9 @@ const LoginPage = () => {
                         </div>
                         <div className="col-lg-6 col-md-6 col-xs-12"> {/* Right column for form */}
                             <h2 className="text-center mb-4">Login</h2> {/* Login heading */}
+                            <div className="alert alert-danger text-center mb-4" style={{ fontWeight: 'bold' }}>
+                                ⚠️ WARNING: This site uses non-secure connections. Please use fake credentials only!
+                            </div>
                             <form id="loginForm" onSubmit={handleLogin}> {/* Login form */}
                                 <FormInput
                                     label="Email or User ID" // Label for input field
